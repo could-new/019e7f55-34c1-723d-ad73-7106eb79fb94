@@ -149,7 +149,7 @@ class ProductCard extends StatelessWidget {
         Navigator.pushNamed(context, '/product', arguments: product);
       },
       child: Card(
-        clipBehavior: ClipAntiAlias,
+        clipBehavior: Clip.antiAlias,
         elevation: 2,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
         child: Column(
